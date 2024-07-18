@@ -48,7 +48,7 @@
         </nav>
     </header>
 
-    <div class="mainsection w-full m-auto">
+    <div class="mainsection w-full m-auto mb-56">
 
         <section class="slider_section relative">
 
@@ -102,7 +102,7 @@
 
 
 
-        <section class="border border-red-500 min-h-[650px] mt-28 w-[1200px] m-auto">
+        <section class="border border-red-500 min-h-[650px] mt-28 w-[1300px] m-auto">
             <div class="cityheadline ml-20">
                 <h2 class="text-[30px] font-bold">TOUR IN <span class="underline underline-offset-[6px] decoration-[5px] decoration-yellow-300">RAJASTHAN</span>
                 </h2>
@@ -110,34 +110,34 @@
 
 
 
-            <div class="allSection w-full h-full mt-4 flex items-center">
-                <div class="filterSection w-[25%] min-h-[650px] border border-cyan-400">
+            <div class="allSection w-full h-full mt-10 flex items-center">
+                <div class="filterSection w-[20%] h-auto ">
 
-                    <div class="filterAndReset w-[80%] m-auto flex justify-between items-center h-auto px-3 py-4 border-b border-b-black">
+                    <div class="filterAndReset w-[80%] m-auto flex justify-between items-center h-auto px-3 py-4 ">
                         <a href=""> <span class="text-black font-medium text-[22px]">Filters</span></a>
                         <a href=""><span class="text-gray-600 font-normal text-[20px]">Reset</span></a>
 
                     </div>
-                    <div class="filterSection  w-[80%] m-auto  h-auto px-3 mt-4">
+                    <div class="filterSection  w-[90%] m-auto  h-auto px-2 mt-4">
                         <div class="categorySection relative">
                             <div class="categories flex items-center justify-between">
                                 <h3 class="text-black-500 font-normal text-[22px] underline underline-offset-[6px] decoration-yellow-500 decoration-[3px]">Categories</h3>
                             </div>
-                            <div class="checkboxes flex flex-col min-h-[200px] mt-2">
-                                <label for="Honeymoon" class="flex justify-start items-center py-[3px] text-[18px] font-normal w-[90%] ">
+                            <div class="checkboxes flex flex-col min-h-[160px] mt-5">
+                                <label for="Honeymoon" class="flex justify-start items-center py-[4px] text-[18px] font-normal w-[100%] ">
                                     <input type="checkbox" name="Honeymoon" id="Honeymoon" class="mr-5 checkbox_items">
                                     Honeymoon
                                 </label>
 
 
-                                <label for="family" class="flex justify-start items-center py-[3px] text-[18px] font-normal w-[90%]">
+                                <label for="family" class="flex justify-start items-center py-[4px] text-[18px] font-normal w-[100%]">
                                     <input type="checkbox" name="family" id="family" class="mr-5 checkbox_items">
                                     Family
                                 </label>
 
 
-                                <label for="friend" class="flex justify-start items-center py-[3px] text-[18px] font-normal w-[90%] ">
-                                    <input type="checkbox" name="friend" id="friend" class="mr-5 checkbox_items" >
+                                <label for="friend" class="flex justify-start items-center py-[4px] text-[18px] font-normal w-[100%] ">
+                                    <input type="checkbox" name="friend" id="friend" class="mr-5 checkbox_items">
                                     Friends / Group
                                 </label>
 
@@ -147,24 +147,24 @@
                         </div>
                         <div class="categorySection relative">
                             <div class="categories flex items-center justify-between">
-                                <h3 class="text-black-500 font-normal text-[22px] underline underline-offset-[6px] decoration-yellow-500 decoration-[3px]">Categories</h3>
+                                <h3 class="text-black-500 font-normal text-[22px] underline underline-offset-[6px] decoration-yellow-500 decoration-[3px]">Duration (In Days)</h3>
                             </div>
-                            <div class="checkboxes flex flex-col min-h-[200px] mt-2">
-                                <label for="Honeymoon" class="flex justify-start items-center py-[3px] text-[18px] font-normal w-[90%] ">
-                                    <input type="checkbox" name="Honeymoon" id="Honeymoon" class="mr-5 checkbox_items">
-                                    Honeymoon
+                            <div class="checkboxes flex flex-col min-h-[160px] mt-5">
+                                <label for="onetothree" class="flex justify-start items-center py-[3px] text-[18px] font-normal w-[90%] ">
+                                    <input type="checkbox" name="onetothree" id="onetothree" class="mr-5 checkbox_items">
+                                    1 To 3
                                 </label>
 
 
-                                <label for="family" class="flex justify-start items-center py-[3px] text-[18px] font-normal w-[90%]">
-                                    <input type="checkbox" name="family" id="family" class="mr-5 checkbox_items">
-                                    Family
+                                <label for="fourtosix" class="flex justify-start items-center py-[3px] text-[18px] font-normal w-[90%]">
+                                    <input type="checkbox" name="fourtosix" id="fourtosix" class="mr-5 checkbox_items">
+                                    4 To 6
                                 </label>
 
 
-                                <label for="friend" class="flex justify-start items-center py-[3px] text-[18px] font-normal w-[90%] ">
-                                    <input type="checkbox" name="friend" id="friend" class="mr-5 checkbox_items" >
-                                    Friends / Group
+                                <label for="seventonine" class="flex justify-start items-center py-[3px] text-[18px] font-normal w-[90%] ">
+                                    <input type="checkbox" name="seventonine" id="seventonine" class="mr-5 checkbox_items">
+                                    7 To 9
                                 </label>
 
                                 <span class="clear">CLEAR</span>
@@ -173,40 +173,91 @@
                         </div>
                         <div class="categorySection relative">
                             <div class="categories flex items-center justify-between">
-                                <h3 class="text-black-500 font-normal text-[22px] underline underline-offset-[6px] decoration-yellow-500 decoration-[3px]">Categories</h3>
+                                <h3 class="text-black-500 font-normal text-[22px] underline underline-offset-[6px] decoration-yellow-500 decoration-[3px]">Budget (In INR)</h3>
                             </div>
-                            <div class="checkboxes flex flex-col min-h-[200px] mt-2">
-                                <label for="Honeymoon" class="flex justify-start items-center py-[3px] text-[18px] font-normal w-[90%] ">
-                                    <input type="checkbox" name="Honeymoon" id="Honeymoon" class="mr-5 checkbox_items">
-                                    Honeymoon
+                            <div class="checkboxes flex flex-col min-h-[160px] mt-5">
+                                <label for="firstBudget" class="flex justify-start items-center py-[3px] text-[18px] font-normal w-[90%] ">
+                                    <input type="checkbox" name="firstBudget" id="firstBudget" class="mr-5 checkbox_items">
+                                    0 To 999
                                 </label>
 
 
-                                <label for="family" class="flex justify-start items-center py-[3px] text-[18px] font-normal w-[90%]">
-                                    <input type="checkbox" name="family" id="family" class="mr-5 checkbox_items">
-                                    Family
+                                <label for="secondBudget" class="flex justify-start items-center py-[3px] text-[18px] font-normal w-[90%]">
+                                    <input type="checkbox" name="secondBudget" id="secondBudget" class="mr-5 checkbox_items">
+                                    1000 To 2499
                                 </label>
 
 
-                                <label for="friend" class="flex justify-start items-center py-[3px] text-[18px] font-normal w-[90%] ">
-                                    <input type="checkbox" name="friend" id="friend" class="mr-5 checkbox_items" >
-                                    Friends / Group
+                                <label for="thirdBudget" class="flex justify-start items-center py-[3px] text-[18px] font-normal w-[90%] ">
+                                    <input type="checkbox" name="thirdBudget" id="thirdBudget" class="mr-5 checkbox_items">
+                                    2500 To 4999
                                 </label>
+
+
 
                                 <span class="clear">CLEAR</span>
 
                             </div>
                         </div>
-                       
+
                     </div>
                 </div>
-                <div class="outputSection w-[55%] min-h-[650px] border border-gray-400"></div>
-                <div class="suggestionSection w-[20%] min-h-[650px] border border-red-400"></div>
+                <div class="outputSection w-[65%] px-4">
+
+
+                    <div class="destinationLocationAndPrice w-full h-full flex flex-col justify-start items-center">
+                        <div class="dest_items">
+                            <div class="ns_dest_item">
+                                <div class="imgSection rounded-xl overflow-hidden">
+                                    <img src="./assest/images/touriestPlace1.jpg" class="w-[100%] h-[100%] object-cover " alt="">
+                                </div>
+                                <div class="contentSection"></div>
+                            </div>
+                            <div class="ns_dest_item">
+                                <div class="imgSection rounded-xl overflow-hidden">
+                                <img src="./assest/images/touriestPlace2.jpg" class="w-[100%] h-[100%] object-cover" alt="">
+                                </div>
+                                <div class="contentSection"></div>
+                            </div>
+                            <div class="ns_dest_item">
+                                <div class="imgSection rounded-xl overflow-hidden">
+                                <img src="./assest/images/touriestPlace3.jpg" class="w-[100%] h-[100%] object-cover" alt="">
+                                </div>
+                                <div class="contentSection"></div>
+                            </div>
+                        </div>
+
+                        <div class="dest_items">
+                            <div class="ns_dest_item">
+                                <div class="imgSection rounded-xl overflow-hidden">
+                                <img src="./assest/images/touriestPlace4.jpg" class="w-[100%] h-[100%] object-cover" alt="">
+                                </div>
+                                <div class="contentSection"></div>
+                            </div>
+                            <div class="ns_dest_item">
+                                <div class="imgSection rounded-xl overflow-hidden">
+                                <img src="./assest/images/touriestPlace5.jpg" class="w-[100%] h-[100%] object-cover" alt="">
+                                </div>
+                                <div class="contentSection"></div>
+                            </div>
+                            <div class="ns_dest_item">
+                                <div class="imgSection rounded-xl overflow-hidden">
+                                <img src="./assest/images/touriestPlace6.jpg" class="w-[100%] h-[100%] object-cover" alt="">
+                                </div>
+                                <div class="contentSection"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="suggestionSection w-[15%] border border-red-400"></div>
             </div>
-
-
-
         </section>
+    </div>
+
+
+
 
 
 
