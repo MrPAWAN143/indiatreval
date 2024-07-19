@@ -207,11 +207,29 @@
 
                     <div class="destinationLocationAndPrice w-full h-full flex flex-col justify-start items-center">
                         <div class="dest_items">
-                            <div class="ns_dest_item">
+                            <div class="ns_dest_item relative">
                                 <div class="imgSection rounded-xl overflow-hidden">
                                     <img src="./assest/images/touriestPlace1.jpg" class="w-[100%] h-[100%] object-cover " alt="">
                                 </div>
-                                <div class="contentSection"></div>
+                                <div class="contentSection">
+                                    <div class="tourDays mt-[-3px]">
+                                        <span class="text-xs pl-1 text-gray-600">6 days & 5 nights</span>
+                                    </div>
+                                    <div class="tourlocation text-sm  leading-[17px] mt-[-2px]">
+                                        <span class=" font-light">Jaipur Jodhpur Jaisalmer | FREE
+                                        Desert Safari</span>
+                                    </div>
+
+                                    <div class="tourPrice mt-1">
+                                        <p class=" bg-gray-300 px-2 py-0 text-sm font-medium " >INR 15,199</p>
+                                    </div>
+
+
+                                    <div class="btnSection flex absolute bottom-3 w-[94%] left-[50%] translate-x-[-50%]  justify-between">
+                                        <button class="px-6 py-0 border border-yellow-500  hover:bg-yellow-500 bg-transparent rounded-sm">Call now</button>
+                                        <button class="px-6 py-0 hover:border hover:border-yellow-500 bg-yellow-500 hover:bg-transparent rounded-sm">Get quote</button>
+                                    </div>
+                                </div>
                             </div>
                             <div class="ns_dest_item">
                                 <div class="imgSection rounded-xl overflow-hidden">

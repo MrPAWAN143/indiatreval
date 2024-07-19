@@ -130,7 +130,7 @@ height: 600px;
 }
 .ns_dest_item{
 flex:1;
-height: 360px;
+height: 390px;
 
 padding: 10px 8px;
 }
@@ -138,11 +138,11 @@ padding: 10px 8px;
 .imgSection{
     width: 100%;
     height: 70%;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 
 .contentSection{
     width: 100%;
     height: 30%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
